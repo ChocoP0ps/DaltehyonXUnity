@@ -1,0 +1,10 @@
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\bin\Debug\DaltehyonXUnity.exe.config
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\bin\Debug\DaltehyonXUnity.exe
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\bin\Debug\DaltehyonXUnity.pdb
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.csprojResolveAssemblyReference.cache
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.Form1.resources
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.Properties.Resources.resources
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.csproj.GenerateResource.Cache
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.csproj.CoreCompileInputs.cache
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.exe
+c:\users\alexa\source\repos\DaltehyonXUnity\DaltehyonXUnity\obj\Debug\DaltehyonXUnity.pdb
