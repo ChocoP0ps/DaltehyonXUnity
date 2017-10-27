@@ -1,4 +1,6 @@
-﻿namespace DaltehyonXUnity
+﻿using System.Windows.Forms;
+
+namespace DaltehyonXUnity
 {
     partial class Form1
     {
@@ -62,9 +64,10 @@
             // 
             this.faction2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faction2.Image = ((System.Drawing.Image)(resources.GetObject("faction2.Image")));
-            this.faction2.Location = new System.Drawing.Point(216, 3);
+            this.faction2.Location = new System.Drawing.Point(211, 3);
             this.faction2.Name = "faction2";
-            this.faction2.Size = new System.Drawing.Size(200, 200);
+            this.faction2.Size = new System.Drawing.Size(200, 196);
+            this.faction2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.faction2.TabIndex = 1;
             this.faction2.TabStop = false;
             this.faction2.Click += new System.EventHandler(this.faction2_Click);
@@ -73,9 +76,10 @@
             // 
             this.faction3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faction3.Image = ((System.Drawing.Image)(resources.GetObject("faction3.Image")));
-            this.faction3.Location = new System.Drawing.Point(431, 3);
+            this.faction3.Location = new System.Drawing.Point(419, 3);
             this.faction3.Name = "faction3";
-            this.faction3.Size = new System.Drawing.Size(199, 200);
+            this.faction3.Size = new System.Drawing.Size(199, 196);
+            this.faction3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.faction3.TabIndex = 2;
             this.faction3.TabStop = false;
             this.faction3.Click += new System.EventHandler(this.faction3_Click);
@@ -84,9 +88,10 @@
             // 
             this.faction4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faction4.Image = ((System.Drawing.Image)(resources.GetObject("faction4.Image")));
-            this.faction4.Location = new System.Drawing.Point(636, 3);
+            this.faction4.Location = new System.Drawing.Point(627, 3);
             this.faction4.Name = "faction4";
-            this.faction4.Size = new System.Drawing.Size(200, 200);
+            this.faction4.Size = new System.Drawing.Size(200, 196);
+            this.faction4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.faction4.TabIndex = 3;
             this.faction4.TabStop = false;
             this.faction4.Click += new System.EventHandler(this.faction4_Click);
@@ -95,9 +100,10 @@
             // 
             this.faction5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faction5.Image = ((System.Drawing.Image)(resources.GetObject("faction5.Image")));
-            this.faction5.Location = new System.Drawing.Point(856, 3);
+            this.faction5.Location = new System.Drawing.Point(835, 3);
             this.faction5.Name = "faction5";
-            this.faction5.Size = new System.Drawing.Size(197, 200);
+            this.faction5.Size = new System.Drawing.Size(197, 196);
+            this.faction5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.faction5.TabIndex = 4;
             this.faction5.TabStop = false;
             this.faction5.Click += new System.EventHandler(this.faction5_Click);
@@ -105,9 +111,10 @@
             // imagePerso5
             // 
             this.imagePerso5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePerso5.Location = new System.Drawing.Point(856, 211);
+            this.imagePerso5.Location = new System.Drawing.Point(835, 205);
             this.imagePerso5.Name = "imagePerso5";
             this.imagePerso5.Size = new System.Drawing.Size(200, 190);
+            this.imagePerso5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imagePerso5.TabIndex = 9;
             this.imagePerso5.TabStop = false;
             this.imagePerso5.Click += new System.EventHandler(this.imagePerso5_Click);
@@ -115,9 +122,10 @@
             // imagePerso4
             // 
             this.imagePerso4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePerso4.Location = new System.Drawing.Point(636, 211);
+            this.imagePerso4.Location = new System.Drawing.Point(627, 205);
             this.imagePerso4.Name = "imagePerso4";
             this.imagePerso4.Size = new System.Drawing.Size(200, 190);
+            this.imagePerso4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imagePerso4.TabIndex = 8;
             this.imagePerso4.TabStop = false;
             this.imagePerso4.Click += new System.EventHandler(this.imagePerso4_Click);
@@ -125,9 +133,10 @@
             // imagePerso3
             // 
             this.imagePerso3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePerso3.Location = new System.Drawing.Point(431, 211);
+            this.imagePerso3.Location = new System.Drawing.Point(419, 205);
             this.imagePerso3.Name = "imagePerso3";
             this.imagePerso3.Size = new System.Drawing.Size(199, 190);
+            this.imagePerso3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imagePerso3.TabIndex = 7;
             this.imagePerso3.TabStop = false;
             this.imagePerso3.Click += new System.EventHandler(this.imagePerso3_Click);
@@ -135,9 +144,10 @@
             // imagePerso2
             // 
             this.imagePerso2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePerso2.Location = new System.Drawing.Point(216, 211);
+            this.imagePerso2.Location = new System.Drawing.Point(211, 205);
             this.imagePerso2.Name = "imagePerso2";
             this.imagePerso2.Size = new System.Drawing.Size(200, 190);
+            this.imagePerso2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imagePerso2.TabIndex = 6;
             this.imagePerso2.TabStop = false;
             this.imagePerso2.Click += new System.EventHandler(this.imagePerso2_Click);
@@ -145,9 +155,10 @@
             // imagePerso1
             // 
             this.imagePerso1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.imagePerso1.Location = new System.Drawing.Point(3, 211);
+            this.imagePerso1.Location = new System.Drawing.Point(3, 205);
             this.imagePerso1.Name = "imagePerso1";
             this.imagePerso1.Size = new System.Drawing.Size(200, 190);
+            this.imagePerso1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.imagePerso1.TabIndex = 5;
             this.imagePerso1.TabStop = false;
             // 
@@ -212,14 +223,17 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.ColumnCount = 5;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 213F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.30024F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.69976F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 220F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 251F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Controls.Add(this.faction3, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.faction2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.faction1, 0, 0);
@@ -230,24 +244,28 @@
             this.tableLayoutPanel1.Controls.Add(this.imagePerso2, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.imagePerso4, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.imagePerso3, 2, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 41);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(31, 25);
+            this.tableLayoutPanel1.MaximumSize = new System.Drawing.Size(1040, 404);
+            this.tableLayoutPanel1.MinimumSize = new System.Drawing.Size(520, 202);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1105, 416);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1040, 404);
             this.tableLayoutPanel1.TabIndex = 15;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // faction1
             // 
+            this.faction1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.faction1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.faction1.Image = ((System.Drawing.Image)(resources.GetObject("faction1.Image")));
             this.faction1.InitialImage = ((System.Drawing.Image)(resources.GetObject("faction1.InitialImage")));
             this.faction1.Location = new System.Drawing.Point(3, 3);
             this.faction1.Name = "faction1";
-            this.faction1.Size = new System.Drawing.Size(202, 202);
-            this.faction1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.faction1.Size = new System.Drawing.Size(202, 196);
+            this.faction1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.faction1.TabIndex = 0;
             this.faction1.TabStop = false;
             this.faction1.Click += new System.EventHandler(this.faction1_Click);
@@ -276,7 +294,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.imagePerso2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imagePerso1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.faction1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
