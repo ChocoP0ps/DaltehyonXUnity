@@ -163,6 +163,12 @@ namespace DaltehyonXUnity
                     break;
             }
             this.pdrLabel.Text = this.pdr.ToString();
+            string pm = listBox1.Items[0].ToString();
+            listBox1.Items.Remove(listBox1.Items[0]);
+            List<string> orderedList = listBox1.Items.OfType<string>().OrderBy(q => q).ToList<string>();
+            listBox1.Items.Clear();
+            listBox1.Items.Add(pm);
+            listBox1.Items.AddRange(orderedList.ToArray());
         }
 
         private void imagePerso3_Click(object sender, EventArgs e)
@@ -211,6 +217,12 @@ namespace DaltehyonXUnity
                     break;
             }
             this.pdrLabel.Text = this.pdr.ToString();
+            string pm = listBox1.Items[0].ToString();
+            listBox1.Items.Remove(listBox1.Items[0]);
+            List<string> orderedList = listBox1.Items.OfType<string>().OrderBy(q => q).ToList<string>();
+            listBox1.Items.Clear();
+            listBox1.Items.Add(pm);
+            listBox1.Items.AddRange(orderedList.ToArray());
         }
 
         private void imagePerso4_Click(object sender, EventArgs e)
@@ -259,6 +271,12 @@ namespace DaltehyonXUnity
                     break;
             }
             this.pdrLabel.Text = this.pdr.ToString();
+            string pm = listBox1.Items[0].ToString();
+            listBox1.Items.Remove(listBox1.Items[0]);
+            List<string> orderedList = listBox1.Items.OfType<string>().OrderBy(q => q).ToList<string>();
+            listBox1.Items.Clear();
+            listBox1.Items.Add(pm);
+            listBox1.Items.AddRange(orderedList.ToArray());
         }
 
         private void imagePerso5_Click(object sender, EventArgs e)
@@ -307,6 +325,12 @@ namespace DaltehyonXUnity
                     break;
             }
             this.pdrLabel.Text = this.pdr.ToString();
+            string pm = listBox1.Items[0].ToString();
+            listBox1.Items.Remove(listBox1.Items[0]);
+            List<string> orderedList = listBox1.Items.OfType<string>().OrderBy(q => q).ToList<string>();
+            listBox1.Items.Clear();
+            listBox1.Items.Add(pm);
+            listBox1.Items.AddRange(orderedList.ToArray());
         }
 
         private void listBox1_Click(object sender, EventArgs e)
@@ -322,13 +346,31 @@ namespace DaltehyonXUnity
                     this.pdrLabel.Text = this.pdr.ToString();
                     this.armee.Remove(this.armee.Find(x => x.Name == persoName));
                     listBox1.Items.Remove(listBox1.SelectedItem);
+                    string pm = listBox1.Items[0].ToString();
+                    listBox1.Items.Remove(listBox1.Items[0]);
+                    List<string> orderedList = listBox1.Items.OfType<string>().OrderBy(q => q).ToList<string>();
+                    listBox1.Items.Clear();
+                    listBox1.Items.Add(pm);
+                    listBox1.Items.AddRange(orderedList.ToArray());
                 }
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            System.Threading.Thread monthread = new System.Threading.Thread(new System.Threading.ThreadStart(ouvrirnouveauform));
+            monthread.Start();
+            this.Close();
+        }
 
+        public static void ouvrirnouveauform()
+        {
+            Application.Run(new Serveur());
+        }
+
+        public static int CompareNomPersonne(string perso1, string perso2)
+        {
+            return perso1.CompareTo(perso2);
         }
     }
 }
