@@ -124,6 +124,9 @@
   <data name="Persécuteur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Persécuteur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Chevalier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chevalier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ombre de Dakréos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ombre de Dakréos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,14 +139,17 @@
   <data name="Shujaa's" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shujaa's.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Exosquelette" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exosquelette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Guerrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Guerrier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Catapulte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Catapulte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Humains" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Humains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying-glass-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Archer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Archer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,9 +178,6 @@
   <data name="Minotaure" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minotaure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Assaillant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Assaillant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Archer Shujaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Archer Shujaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,8 +187,8 @@
   <data name="Jal-Kéniens" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Jal-Kéniens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Catapulte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Catapulte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Assaillant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assaillant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nains" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +202,8 @@
   <data name="Assassin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Assassin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Chevalier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chevalier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exosquelette" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Exosquelette.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Shaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Shaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,7 +211,7 @@
   <data name="Chef de Clan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chef de Clan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="magnifying-glass-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\magnifying-glass-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="throbber_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\throbber_13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

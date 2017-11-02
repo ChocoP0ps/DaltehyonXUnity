@@ -1,0 +1,13 @@
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\bin\Release\DaltehyonXUnity.dll.config
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\bin\Release\DaltehyonXUnity.dll
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\bin\Release\DaltehyonXUnity.pdb
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\bin\Release\mysql.data.dll
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\bin\Release\mysql.web.dll
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.Form1.resources
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.Properties.Resources.resources
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.Serveur.resources
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.waitingParty.resources
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.csproj.GenerateResource.Cache
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.csproj.CoreCompileInputs.cache
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.dll
+C:\Users\alexa\OneDrive\Documents\GitHub\DaltehyonXUnity\obj\Release\DaltehyonXUnity.pdb
